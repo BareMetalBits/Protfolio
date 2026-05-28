@@ -388,14 +388,14 @@ Building Edge AI systems, custom RTOS kernels,<br>and intelligent embedded appli
 <span class="proj-badge">DL · Minor Research Project</span>
 <div class="proj-title">Monocular Depth Estimation for Visually Impaired</div>
 <div class="proj-desc">Custom Transformer-based approach for Monocular Depth Estimation on edge hardware to assist visually impaired individuals with real-time spatial awareness without cloud connectivity.</div>
-<div class="proj-stack"><span class="st-tag">Transformers</span><span class="st-tag">PyTorch</span><span class="st-tag">TFLite</span><span class="st-tag">Edge Deployment</span></div>
+<div class="proj-stack"><span class="st-tag">Transformers</span><span class="st-tag">PyTorch</span><span class="st-tag">Embeddings</span><span class="st-tag">Edge Deployment</span></div>
 </div>
 
 <div class="proj-card">
 <span class="proj-badge">Embedded · Minor Research Project</span>
 <div class="proj-title">Edge RTOS</div>
 <div class="proj-desc">Custom RTOS kernel for Cortex-M4 MCUs enabling real-time edge ML inferencing with minimized scheduling overhead. Implements preemptive scheduling, memory management, and IPC from scratch.</div>
-<div class="proj-stack"><span class="st-tag">C</span><span class="st-tag">ARM Assembly</span><span class="st-tag">Cortex-M4</span><span class="st-tag">RTOS</span><span class="st-tag">C</span></div>
+<div class="proj-stack"><span class="st-tag">C</span><span class="st-tag">ARM Assembly</span><span class="st-tag">Cortex-M4</span><span class="st-tag">RTOS</span></div>
 </div>
 
 <div class="proj-card">
@@ -423,7 +423,7 @@ Building Edge AI systems, custom RTOS kernels,<br>and intelligent embedded appli
 <span class="proj-badge">Edge AI · Minor Research Project</span>
 <div class="proj-title">Industrial Vision Intelligence System</div>
 <div class="proj-desc">Integrates robotics, control systems, and deep learning (1D/2D CNN) with embedded edge computing for real-time signal and image processing in industrial environments — fully cloud independent.</div>
-<div class="proj-stack"><span class="st-tag">CNN</span><span class="st-tag">PyTorch</span><span class="st-tag">Edge Computing</span><span class="st-tag">Python</span></div>
+<div class="proj-stack"><span class="st-tag">CNN</span><span class="st-tag">PyTorch</span><span class="st-tag">Edge Computing</span><span class="st-tag">TensorFlow</span></div>
 </div>
 
 <div class="proj-card">
