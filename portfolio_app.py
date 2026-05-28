@@ -222,14 +222,14 @@ transition:border-color 0.2s,color 0.2s,background 0.2s;
 <nav class="nav">
 <div class="nav-logo">DP//</div>
 <ul class="nav-links">
-<li><a onclick="document.getElementById('about').scrollIntoView({behavior:'smooth'})">//About</a></li>
-<li><a onclick="document.getElementById('skills').scrollIntoView({behavior:'smooth'})">//Skills</a></li>
-<li><a onclick="document.getElementById('experience').scrollIntoView({behavior:'smooth'})">//Experience</a></li>
-<li><a onclick="document.getElementById('projects').scrollIntoView({behavior:'smooth'})">//Projects</a></li>
-<li><a onclick="document.getElementById('certifications').scrollIntoView({behavior:'smooth'})">//Certifications</a></li>
-<li><a onclick="document.getElementById('competitions').scrollIntoView({behavior:'smooth'})">//Competitions</a></li>
-<li><a onclick="document.getElementById('events').scrollIntoView({behavior:'smooth'})">//Events</a></li>
-<li><a onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">//Contact</a></li>
+<li><a onclick="document.getElementById('about').scrollIntoView({behavior:'smooth'})">About</a></li>
+<li><a onclick="document.getElementById('skills').scrollIntoView({behavior:'smooth'})">Skills</a></li>
+<li><a onclick="document.getElementById('experience').scrollIntoView({behavior:'smooth'})">Experience</a></li>
+<li><a onclick="document.getElementById('projects').scrollIntoView({behavior:'smooth'})">Projects</a></li>
+<li><a onclick="document.getElementById('certifications').scrollIntoView({behavior:'smooth'})">Certifications</a></li>
+<li><a onclick="document.getElementById('competitions').scrollIntoView({behavior:'smooth'})">Competitions</a></li>
+<li><a onclick="document.getElementById('events').scrollIntoView({behavior:'smooth'})">Events</a></li>
+<li><a onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Contact</a></li>
 </ul>
 </nav>
 
