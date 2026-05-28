@@ -416,7 +416,7 @@ Building Edge AI systems, custom RTOS kernels,<br>and intelligent embedded appli
 <span class="proj-badge">Gen AI · DU Hacks 5.0</span>
 <div class="proj-title">RAG-based Local Research Assistant</div>
 <div class="proj-desc">Token-optimised Retrieval Augmented Generation (RAG) based local research assistant for maximised context retention. Runs entirely offline using local LLMs via Ollama — no internet required.</div>
-<div class="proj-stack"><span class="st-tag">LangChain</span><span class="st-tag">Ollama</span><span class="st-tag">RAG</span><span class="st-tag">FAISS</span><span class="st-tag">Python</span></div>
+<div class="proj-stack"><span class="st-tag">LangChain</span><span class="st-tag">Ollama</span><span class="st-tag">RAG</span><span class="st-tag">Python</span></div>
 </div>
 
 <div class="proj-card">
