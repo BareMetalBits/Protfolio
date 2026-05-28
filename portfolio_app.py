@@ -385,13 +385,6 @@ Building Edge AI systems, custom RTOS kernels,<br>and intelligent embedded appli
 <div class="proj-grid">
 
 <div class="proj-card">
-<span class="proj-badge">Edge AI · Minor Research Project</span>
-<div class="proj-title">Industrial Vision Intelligence System</div>
-<div class="proj-desc">Integrates robotics, control systems, and deep learning (1D/2D CNN) with embedded edge computing for real-time signal and image processing in industrial environments — fully cloud independent.</div>
-<div class="proj-stack"><span class="st-tag">CNN</span><span class="st-tag">PyTorch</span><span class="st-tag">Edge Computing</span><span class="st-tag">C++</span></div>
-</div>
-
-<div class="proj-card">
 <span class="proj-badge">DL · Minor Research Project</span>
 <div class="proj-title">Monocular Depth Estimation for Visually Impaired</div>
 <div class="proj-desc">Custom Transformer-based approach for Monocular Depth Estimation on edge hardware to assist visually impaired individuals with real-time spatial awareness without cloud connectivity.</div>
@@ -420,10 +413,17 @@ Building Edge AI systems, custom RTOS kernels,<br>and intelligent embedded appli
 </div>
 
 <div class="proj-card">
-<span class="proj-badge">NLP · DU Hacks 5.0</span>
+<span class="proj-badge">Gen AI · DU Hacks 5.0</span>
 <div class="proj-title">RAG-based Local Research Assistant</div>
 <div class="proj-desc">Token-optimised Retrieval Augmented Generation (RAG) based local research assistant for maximised context retention. Runs entirely offline using local LLMs via Ollama — no internet required.</div>
 <div class="proj-stack"><span class="st-tag">LangChain</span><span class="st-tag">Ollama</span><span class="st-tag">RAG</span><span class="st-tag">FAISS</span><span class="st-tag">Python</span></div>
+</div>
+
+<div class="proj-card">
+<span class="proj-badge">Edge AI · Minor Research Project</span>
+<div class="proj-title">Industrial Vision Intelligence System</div>
+<div class="proj-desc">Integrates robotics, control systems, and deep learning (1D/2D CNN) with embedded edge computing for real-time signal and image processing in industrial environments — fully cloud independent.</div>
+<div class="proj-stack"><span class="st-tag">CNN</span><span class="st-tag">PyTorch</span><span class="st-tag">Edge Computing</span><span class="st-tag">C++</span></div>
 </div>
 
 <div class="proj-card">
