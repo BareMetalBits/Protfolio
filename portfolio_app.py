@@ -395,14 +395,14 @@ Building Edge AI systems, custom RTOS kernels,<br>and intelligent embedded appli
 <span class="proj-badge">Embedded · Minor Research Project</span>
 <div class="proj-title">Edge RTOS</div>
 <div class="proj-desc">Custom RTOS kernel for Cortex-M4 MCUs enabling real-time edge ML inferencing with minimized scheduling overhead. Implements preemptive scheduling, memory management, and IPC from scratch.</div>
-<div class="proj-stack"><span class="st-tag">C</span><span class="st-tag">ARM Assembly</span><span class="st-tag">Cortex-M4</span><span class="st-tag">RTOS</span></div>
+<div class="proj-stack"><span class="st-tag">C</span><span class="st-tag">ARM Assembly</span><span class="st-tag">Cortex-M4</span><span class="st-tag">RTOS</span><span class="st-tag">C</span></div>
 </div>
 
 <div class="proj-card">
 <span class="proj-badge">Robotics · SSIP Cell DDU</span>
 <div class="proj-title">Multi-Purpose 3-Fingered Gripper</div>
 <div class="proj-desc">Designed a 3-fingered robotic gripper with adaptive multi-purpose grasping, integrating servo actuation and embedded control for precise manipulation tasks in unstructured environments.</div>
-<div class="proj-stack"><span class="st-tag">STM32</span><span class="st-tag">Servo Control</span><span class="st-tag">Embedded C</span><span class="st-tag">Kinematics</span></div>
+<div class="proj-stack"><span class="st-tag">ESP32</span><span class="st-tag">Servo Control</span><span class="st-tag">Embedded C</span><span class="st-tag">Kinematics</span></div>
 </div>
 
 <div class="proj-card">
@@ -423,7 +423,7 @@ Building Edge AI systems, custom RTOS kernels,<br>and intelligent embedded appli
 <span class="proj-badge">Edge AI · Minor Research Project</span>
 <div class="proj-title">Industrial Vision Intelligence System</div>
 <div class="proj-desc">Integrates robotics, control systems, and deep learning (1D/2D CNN) with embedded edge computing for real-time signal and image processing in industrial environments — fully cloud independent.</div>
-<div class="proj-stack"><span class="st-tag">CNN</span><span class="st-tag">PyTorch</span><span class="st-tag">Edge Computing</span><span class="st-tag">C++</span></div>
+<div class="proj-stack"><span class="st-tag">CNN</span><span class="st-tag">PyTorch</span><span class="st-tag">Edge Computing</span><span class="st-tag">Python</span></div>
 </div>
 
 <div class="proj-card">
@@ -437,7 +437,7 @@ Building Edge AI systems, custom RTOS kernels,<br>and intelligent embedded appli
 <span class="proj-badge">IoT · Edge Systems</span>
 <div class="proj-title">Independent Edge IoT Telemetry Ecosystem</div>
 <div class="proj-desc">Shifts both data translation and web-hosting tasks directly onto edge silicon, transforming the system into an independent hardware appliance — eliminating cloud/internet dependency for maximum reliability and minimal downtime under fault.</div>
-<div class="proj-stack"><span class="st-tag">ESP32</span><span class="st-tag">Edge Web Server</span><span class="st-tag">MQTT</span><span class="st-tag">C/C++</span><span class="st-tag">IoT</span></div>
+<div class="proj-stack"><span class="st-tag">ESP8266</span><span class="st-tag">Edge Web Server</span><span class="st-tag">MQTT</span><span class="st-tag">C/C++</span><span class="st-tag">IoT</span></div>
 </div>
 
 </div>
