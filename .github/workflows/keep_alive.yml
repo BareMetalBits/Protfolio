@@ -1,35 +1,50 @@
 name: Keep Streamlit Alive
 
-# ─── SCHEDULE ──────────────────────────────────────────────────────────────
-# Pings your app every 10 minutes so Streamlit never marks it as inactive.
-# GitHub Actions free tier: 2 000 min/month — this uses ≈ 150 min/month.
+# ─── SCHEDULE ─────────────────────────────────────────────────────────────────
+# Runs every 10 minutes using a real headless browser.
+# If the app is sleeping, it clicks "Yes, get this app back up!" automatically.
 #
-# ─── HOW TO TOGGLE ─────────────────────────────────────────────────────────
-# ON  → GitHub repo → Actions tab → "Keep Streamlit Alive" → Enable workflow
-# OFF → GitHub repo → Actions tab → "Keep Streamlit Alive" → Disable workflow
+# ─── TOGGLE ON / OFF ──────────────────────────────────────────────────────────
+#   GitHub repo → Actions tab → "Keep Streamlit Alive" → ⋯ → Disable / Enable
+#   Or trigger a one-off run with the "Run workflow" button.
 #
-# You can also trigger a one-off ping manually via the "Run workflow" button.
-# ───────────────────────────────────────────────────────────────────────────
+# ─── PRIVATE REPO NOTE ────────────────────────────────────────────────────────
+#   Public repos  → GitHub Actions minutes are UNLIMITED  (10 min interval OK)
+#   Private repos → 2 000 free min/month; change cron to "*/30 * * * *" instead
+# ──────────────────────────────────────────────────────────────────────────────
 
 on:
   schedule:
-    - cron: "*/10 * * * *"   # every 10 minutes, 24 × 7
-  workflow_dispatch:          # manual "Run workflow" button in GitHub Actions UI
+    - cron: "*/10 * * * *"   # every 10 minutes
+  workflow_dispatch:          # manual "Run workflow" button
 
 jobs:
-  ping:
-    name: Ping App
+  wake:
+    name: Wake / Keep Alive
     runs-on: ubuntu-latest
+
     steps:
-      - name: Wake / keep alive
+      # ── 1. Python ────────────────────────────────────────────────────────────
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # ── 2. Cache Playwright's Chromium binary (~280 MB) ───────────────────
+      - name: Cache Playwright browsers
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-chromium-${{ runner.os }}-v1
+
+      # ── 3. Install Playwright (fast after first run due to cache) ─────────
+      - name: Install Playwright + Chromium
         run: |
-          echo "Pinging Streamlit app..."
-          STATUS=$(curl -s -o /dev/null -w "%{http_code}" \
-            --max-time 30 \
-            "https://dhairya-panchal.streamlit.app/")
-          echo "HTTP status: $STATUS"
-          if [ "$STATUS" -ge 200 ] && [ "$STATUS" -lt 400 ]; then
-            echo "✅ App is awake (HTTP $STATUS)"
-          else
-            echo "⚠️  Unexpected status: $STATUS"
-          fi
+          pip install playwright --quiet
+          playwright install chromium --with-deps
+
+      # ── 4. Checkout repo so wake_app.py is available ──────────────────────
+      - uses: actions/checkout@v4
+
+      # ── 5. Run the wake script ────────────────────────────────────────────
+      - name: Wake Streamlit app
+        run: python wake_app.py
