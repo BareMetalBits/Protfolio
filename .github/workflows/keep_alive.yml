@@ -1,0 +1,35 @@
+name: Keep Streamlit Alive
+
+# ─── SCHEDULE ──────────────────────────────────────────────────────────────
+# Pings your app every 10 minutes so Streamlit never marks it as inactive.
+# GitHub Actions free tier: 2 000 min/month — this uses ≈ 150 min/month.
+#
+# ─── HOW TO TOGGLE ─────────────────────────────────────────────────────────
+# ON  → GitHub repo → Actions tab → "Keep Streamlit Alive" → Enable workflow
+# OFF → GitHub repo → Actions tab → "Keep Streamlit Alive" → Disable workflow
+#
+# You can also trigger a one-off ping manually via the "Run workflow" button.
+# ───────────────────────────────────────────────────────────────────────────
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"   # every 10 minutes, 24 × 7
+  workflow_dispatch:          # manual "Run workflow" button in GitHub Actions UI
+
+jobs:
+  ping:
+    name: Ping App
+    runs-on: ubuntu-latest
+    steps:
+      - name: Wake / keep alive
+        run: |
+          echo "Pinging Streamlit app..."
+          STATUS=$(curl -s -o /dev/null -w "%{http_code}" \
+            --max-time 30 \
+            "https://dhairya-panchal.streamlit.app/")
+          echo "HTTP status: $STATUS"
+          if [ "$STATUS" -ge 200 ] && [ "$STATUS" -lt 400 ]; then
+            echo "✅ App is awake (HTTP $STATUS)"
+          else
+            echo "⚠️  Unexpected status: $STATUS"
+          fi
