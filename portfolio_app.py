@@ -443,10 +443,10 @@ function navTo(id){
 <span class="proj-badge">Summer Internship Project &#183; Semconix Tech Solutions</span>
 <div class="proj-date">&#128197; Jun 2026 &#8211; Present</div>
 <div class="proj-title">OTA Firmware Update System</div>
-<div class="proj-desc">Secure over-the-air firmware update pipeline for the NRF54L15DK built on Zephyr RTOS, using MCUboot's A/B dual-slot bootloader for atomic image swaps and automatic rollback. Implements DMA-backed downloads via stream_flash with SHA256 integrity verification and a GitHub Releases-based manifest server — no custom rollback logic required.</div>
+<div class="proj-desc">Secure over-the-air firmware update pipeline for the NRF70025DK built on Zephyr RTOS, using MCUboot's A/B dual-slot bootloader and 8MB QSIP external memory for image swaps and automatic rollback. Implements DMA-backed downloads via stream_flash with SHA256 integrity verification and a GitHub Releases-based manifest server.</div>
 <div class="proj-stack"><span class="st-tag">Zephyr RTOS</span><span class="st-tag">MCU Bootloader</span><span class="st-tag">Nordic NRF54L15DK</span><span class="st-tag">SHA256</span><span class="st-tag">GitHub Actions</span></div>
 <div class="proj-links">
-<a class="proj-btn" href="https://github.com/BareMetalBits" target="_blank">&#9417; GitHub</a>
+<a class="proj-btn" href="https://github.com/BareMetalBits/Nordic_OTA_Application" target="_blank">&#9417; GitHub</a>
 <a class="proj-btn demo" href="#" target="_blank">&#9654; Demo</a>
 </div>
 </div>
