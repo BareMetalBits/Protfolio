@@ -462,25 +462,23 @@ function navTo(id){
 <a class="proj-btn demo" href="#" target="_blank">&#9654; Demo</a>
 </div>
 </div>
-
-<div class="proj-card">
-<span class="proj-badge">AI/ML &#183; SSIP Cell DDU</span>
-<div class="proj-date">&#128197; Aug 2024 &#8211; Jan 2025</div>
-<div class="proj-title">Smart Healthcare Companion</div>
-<div class="proj-desc">AI-powered smart healthcare companion leveraging embedded systems and ML for patient monitoring and intelligent health assistance, combining sensor fusion with on-device inference.</div>
-<div class="proj-stack"><span class="st-tag">TFLite</span><span class="st-tag">Raspberry Pi</span><span class="st-tag">Sensor Fusion</span><span class="st-tag">Python</span></div>
-<div class="proj-links">
-<a class="proj-btn" href="https://github.com/BareMetalBits" target="_blank">&#9417; GitHub</a>
-<a class="proj-btn demo" href="#" target="_blank">&#9654; Demo</a>
-</div>
-</div>
-
 <div class="proj-card">
 <span class="proj-badge">Gen AI &#183; DU Hacks 5.0</span>
 <div class="proj-date">&#128197; Jan 2025 &#8211; Mar 2025</div>
 <div class="proj-title">RAG-based Local Research Assistant</div>
 <div class="proj-desc">Token-optimised Retrieval Augmented Generation (RAG) based local research assistant for maximised context retention. Runs entirely offline using local LLMs via Ollama &#8212; no internet required.</div>
 <div class="proj-stack"><span class="st-tag">LangChain</span><span class="st-tag">Ollama</span><span class="st-tag">Streamlit</span><span class="st-tag">RAG</span><span class="st-tag">Python</span></div>
+<div class="proj-links">
+<a class="proj-btn" href="https://github.com/BareMetalBits/AI_Trix" target="_blank">&#9417; GitHub</a>
+<a class="proj-btn demo" href="#" target="_blank">&#9654; Demo</a>
+</div>
+</div>
+<div class="proj-card">
+<span class="proj-badge">AI/ML &#183; SSIP Cell DDU</span>
+<div class="proj-date">&#128197; Aug 2024 &#8211; Jan 2025</div>
+<div class="proj-title">Smart Healthcare Companion</div>
+<div class="proj-desc">AI-powered smart healthcare companion leveraging embedded systems and ML for patient monitoring and intelligent health assistance, combining sensor fusion with on-device inference.</div>
+<div class="proj-stack"><span class="st-tag">TFLite</span><span class="st-tag">Raspberry Pi</span><span class="st-tag">Sensor Fusion</span><span class="st-tag">Python</span></div>
 <div class="proj-links">
 <a class="proj-btn" href="https://github.com/BareMetalBits" target="_blank">&#9417; GitHub</a>
 <a class="proj-btn demo" href="#" target="_blank">&#9654; Demo</a>
