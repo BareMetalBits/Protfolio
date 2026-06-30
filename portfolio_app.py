@@ -500,11 +500,11 @@ function navTo(id){
 </div>
 
 <div class="proj-card">
-<span class="proj-badge">Digital Design &#183; ECP</span>
-<div class="proj-date">&#128197; Jan 2024 &#8211; May 2024</div>
-<div class="proj-title">4-Bit Microprocessor</div>
-<div class="proj-desc">Designed and implemented a custom 4-bit microprocessor capable of arithmetic and logical operations, with an on-board programmable timer/counter &#8212; built from scratch to deepen understanding of computer architecture.</div>
-<div class="proj-stack"><span class="st-tag">Digital Logic</span><span class="st-tag">Proteus</span><span class="st-tag">Computer Architecture</span><span class="st-tag">Timer/Counter</span></div>
+<span class="proj-badge">IoT &#183; Edge Systems</span>
+<div class="proj-date">&#128197; Dec 2024 &#8211; May 2025</div>
+<div class="proj-title">Independent Edge IoT Telemetry Ecosystem</div>
+<div class="proj-desc">Shifts both data translation and web-hosting tasks directly onto edge silicon, transforming the system into an independent hardware appliance &#8212; eliminating cloud/internet dependency for maximum reliability and minimal downtime under fault.</div>
+<div class="proj-stack"><span class="st-tag">ESP8266</span><span class="st-tag">Edge Web Server</span><span class="st-tag">MQTT</span><span class="st-tag">C/C++</span><span class="st-tag">IoT</span></div>
 <div class="proj-links">
 <a class="proj-btn" href="https://github.com/BareMetalBits" target="_blank">&#9417; GitHub</a>
 <a class="proj-btn demo" href="#" target="_blank">&#9654; Demo</a>
@@ -512,11 +512,11 @@ function navTo(id){
 </div>
 
 <div class="proj-card">
-<span class="proj-badge">IoT &#183; Edge Systems</span>
-<div class="proj-date">&#128197; Dec 2024 &#8211; May 2025</div>
-<div class="proj-title">Independent Edge IoT Telemetry Ecosystem</div>
-<div class="proj-desc">Shifts both data translation and web-hosting tasks directly onto edge silicon, transforming the system into an independent hardware appliance &#8212; eliminating cloud/internet dependency for maximum reliability and minimal downtime under fault.</div>
-<div class="proj-stack"><span class="st-tag">ESP8266</span><span class="st-tag">Edge Web Server</span><span class="st-tag">MQTT</span><span class="st-tag">C/C++</span><span class="st-tag">IoT</span></div>
+<span class="proj-badge">Digital Design &#183; ECP</span>
+<div class="proj-date">&#128197; Jan 2024 &#8211; May 2024</div>
+<div class="proj-title">4-Bit Microprocessor</div>
+<div class="proj-desc">Designed and implemented a custom 4-bit microprocessor capable of arithmetic and logical operations, with an on-board programmable timer/counter &#8212; built from scratch to deepen understanding of computer architecture.</div>
+<div class="proj-stack"><span class="st-tag">Digital Logic</span><span class="st-tag">Proteus</span><span class="st-tag">Computer Architecture</span><span class="st-tag">Timer/Counter</span></div>
 <div class="proj-links">
 <a class="proj-btn" href="https://github.com/BareMetalBits" target="_blank">&#9417; GitHub</a>
 <a class="proj-btn demo" href="#" target="_blank">&#9654; Demo</a>
