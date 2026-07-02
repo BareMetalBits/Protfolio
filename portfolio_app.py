@@ -536,9 +536,9 @@ function navTo(id){
 <div class="cert-cat">
 <div class="cert-cat-title">NPTEL</div>
 <div class="cert-row">
-<a class="cert-btn" href="#" target="_blank">&#128196; Digital Circuits</a>
-<a class="cert-btn" href="#" target="_blank">&#128196; Analog Circuits</a>
-<a class="cert-btn" href="#" target="_blank">&#128196; 8051 Architecture &amp; Debugging</a>
+<a class="cert-btn" href="https://drive.google.com/file/d/1zxw4vtImOnhQbChiDMDk5B21GRI2ci0U/view?usp=sharing" target="_blank">&#128196; Digital Circuits</a>
+<a class="cert-btn" href="https://drive.google.com/file/d/1KA0HNpd8IgpG0FQT371NpgzLl5r4i7_g/view?usp=sharing" target="_blank">&#128196; Analog Circuits</a>
+<a class="cert-btn" href="https://drive.google.com/file/d/1dH7CmV0CqTgnmxPw3dkQZQIbhN5ypzTn/view?usp=sharing" target="_blank">&#128196; 8051 Architecture &amp; Debugging</a>
 </div>
 </div>
 <div class="cert-cat">
